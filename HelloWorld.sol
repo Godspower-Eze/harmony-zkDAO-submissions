@@ -4,9 +4,11 @@ pragma solidity >=0.7.0 <0.9.0;
 
 contract HelloWorld {
 
+    // number declaration
     uint number;
 
     function storeNumber(uint _number) external {
+        // number assignment
         number = _number;
     }
 
